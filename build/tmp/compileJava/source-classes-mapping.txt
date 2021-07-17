@@ -1,27 +1,51 @@
 com/springboot/webservice/web/dto/HelloResponseDto.java
  com.springboot.webservice.web.dto.HelloResponseDto
+com/springboot/webservice/web/dto/PostsResponseDto.java
+ com.springboot.webservice.web.dto.PostsResponseDto
+com/springboot/webservice/domain/user/UserRepository.java
+ com.springboot.webservice.domain.user.UserRepository
+com/springboot/webservice/domain/posts/Posts.java
+ com.springboot.webservice.domain.posts.Posts
+ com.springboot.webservice.domain.posts.Posts$PostsBuilder
+com/springboot/webservice/domain/User.java
+ com.springboot.webservice.domain.User
+ com.springboot.webservice.domain.User$UserBuilder
+com/springboot/webservice/web/dto/PostsListResponseDto.java
+ com.springboot.webservice.web.dto.PostsListResponseDto
 com/springboot/webservice/web/dto/PostsUpdateRequestDto.java
  com.springboot.webservice.web.dto.PostsUpdateRequestDto
  com.springboot.webservice.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-com/springboot/webservice/domain/posts/PostsRepository.java
- com.springboot.webservice.domain.posts.PostsRepository
-com/springboot/webservice/web/HelloController.java
- com.springboot.webservice.web.HelloController
+com/springboot/webservice/config/auth/LoginUser.java
+ com.springboot.webservice.config.auth.LoginUser
 com/springboot/webservice/web/dto/PostsSaveRequestDto.java
  com.springboot.webservice.web.dto.PostsSaveRequestDto
  com.springboot.webservice.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
 com/springboot/webservice/Application.java
  com.springboot.webservice.Application
+com/springboot/webservice/config/WebConfig.java
+ com.springboot.webservice.config.WebConfig
+com/springboot/webservice/config/auth/dto/OAuthAttributes.java
+ com.springboot.webservice.config.auth.dto.OAuthAttributes
+ com.springboot.webservice.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
 com/springboot/webservice/service/posts/PostsService.java
  com.springboot.webservice.service.posts.PostsService
-com/springboot/webservice/web/dto/PostsResponseDto.java
- com.springboot.webservice.web.dto.PostsResponseDto
+com/springboot/webservice/config/auth/SecurityConfig.java
+ com.springboot.webservice.config.auth.SecurityConfig
 com/springboot/webservice/domain/BaseTimeEntity.java
  com.springboot.webservice.domain.BaseTimeEntity
+com/springboot/webservice/web/HelloController.java
+ com.springboot.webservice.web.HelloController
+com/springboot/webservice/domain/posts/PostsRepository.java
+ com.springboot.webservice.domain.posts.PostsRepository
 com/springboot/webservice/web/PostsApiController.java
  com.springboot.webservice.web.PostsApiController
-com/springboot/webservice/domain/posts/Posts.java
- com.springboot.webservice.domain.posts.Posts
- com.springboot.webservice.domain.posts.Posts$PostsBuilder
+com/springboot/webservice/domain/user/Role.java
+ com.springboot.webservice.domain.user.Role
+com/springboot/webservice/config/auth/dto/SessionUser.java
+ com.springboot.webservice.config.auth.dto.SessionUser
+com/springboot/webservice/config/auth/LoginUserArgumentResolver.java
+ com.springboot.webservice.config.auth.LoginUserArgumentResolver
+com/springboot/webservice/config/auth/CustomOAuth2UserService.java
+ com.springboot.webservice.config.auth.CustomOAuth2UserService
 com/springboot/webservice/web/IndexController.java
  com.springboot.webservice.web.IndexController
