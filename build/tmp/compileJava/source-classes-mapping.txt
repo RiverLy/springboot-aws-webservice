@@ -20,13 +20,13 @@ com/springboot/webservice/config/auth/LoginUser.java
 com/springboot/webservice/web/dto/PostsSaveRequestDto.java
  com.springboot.webservice.web.dto.PostsSaveRequestDto
  com.springboot.webservice.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/springboot/webservice/Application.java
- com.springboot.webservice.Application
-com/springboot/webservice/config/WebConfig.java
- com.springboot.webservice.config.WebConfig
 com/springboot/webservice/config/auth/dto/OAuthAttributes.java
  com.springboot.webservice.config.auth.dto.OAuthAttributes
  com.springboot.webservice.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/springboot/webservice/config/WebConfig.java
+ com.springboot.webservice.config.WebConfig
+com/springboot/webservice/web/IndexController.java
+ com.springboot.webservice.web.IndexController
 com/springboot/webservice/service/posts/PostsService.java
  com.springboot.webservice.service.posts.PostsService
 com/springboot/webservice/config/auth/SecurityConfig.java
@@ -47,5 +47,7 @@ com/springboot/webservice/config/auth/LoginUserArgumentResolver.java
  com.springboot.webservice.config.auth.LoginUserArgumentResolver
 com/springboot/webservice/config/auth/CustomOAuth2UserService.java
  com.springboot.webservice.config.auth.CustomOAuth2UserService
-com/springboot/webservice/web/IndexController.java
- com.springboot.webservice.web.IndexController
+com/springboot/webservice/Application.java
+ com.springboot.webservice.Application
+com/springboot/webservice/config/JpaConfig.java
+ com.springboot.webservice.config.JpaConfig
