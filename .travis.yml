@@ -17,7 +17,7 @@ before_install:
   - chmod +x gradlew
 
 before_deploy:
-  - zip -r springboot-aws-webservice
+  - zip -r springboot-aws-webservice *
   - mkdir -p deploy
   - mv springboot-aws-webservice.zip deploy/springboot-aws-webservice.zip
 
@@ -32,6 +32,21 @@ deploy:
     acl : private #zip 파일 접근 private으로 설정
     local_dir: deploy
     wait-until-deployed: true
+
+  - provider: codedeploy
+    access_key_id: $AWS_ACCESS_KEY
+    secret_access_key: $AWS_SECRET_KEY
+
+    bucket: springboot-aws-build
+    key : springboot-aws-webservice.zip
+    bundle_type: zip
+    application: springboot-aws-webservice
+    deployment_group: springboot-aws-webservice-group
+    region: ap-northeast-2
+    wait-until-deployed: true
+
+
+
 
 #CI 실행 완료 시 메일로 알림
 notifications:
