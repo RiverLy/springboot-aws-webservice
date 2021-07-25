@@ -34,4 +34,4 @@ deploy:
 notifications:
   email:
     recipients:
-      - 'emteofh0313@naver.com'
+      - emteofh0313@naver.com
